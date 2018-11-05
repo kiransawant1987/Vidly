@@ -6,9 +6,12 @@
 
 <h2>Customers</h2>
 
+@Html.ActionLink("New Customer", "New", null, new { @class = "btn btn-primary" })
+
+
 @if (Model.Count <= 0)
 {
-    <text>We don't have customers yet.</text>
+    <p>We don't have customers yet.</p>
 }
 else
 {
