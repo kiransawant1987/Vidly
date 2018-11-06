@@ -26,3 +26,11 @@ textarea {
 .btn {
     margin-bottom: 10px;
 }
+
+.field-validation-error {
+    color: red;
+}
+
+.input-validation-error {
+    border: 2px solid red;
+}
